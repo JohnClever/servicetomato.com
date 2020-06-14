@@ -14,21 +14,23 @@ nav{
 .nav-wrapper{
     background-color: #fff;
     border: none;
+    display: flex;
 }
 
 ul li a{
     color: #000 !important;
-   font-size: 15px;
+   
 }
 
-/* .nav-menu{
-    font-weight: 900;
-    font-size: 25px;
-} */
+.nav-menu{
+   margin-top: -10px;
+}
 
 .brand-logo{
     color: #000 !important;
-  
+    font-size: 15px !important;
+   
+   
 }
 nav ul a:hover,
 nav ul a:active,

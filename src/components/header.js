@@ -9,13 +9,9 @@ class Navbar extends Component{
             <div>
                 <nav>
                     <div className="nav-wrapper">
+                    <li><a href="/" className="brand-logo nav-menu left">Servicetomato.com</a></li>
                     <a href="/" className="brand-logo center"><img src={logo} alt= "logo" width="15%"/></a>
-                    <ul className="left">
-                        <li><a href="/">Servicetomato.com</a></li>
-                    </ul>
-                    <ul className="right">
-                    <li className="nav-menu"><a href="/"><img src={logoMenu} alt="logoMenu"/></a></li>
-                    </ul>
+                    <a href="/" className="brand-logo right"><img src={logoMenu} alt="logoMenu"/></a>
                     </div>
                 </nav>
             </div>
