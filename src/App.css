@@ -596,14 +596,14 @@
       border-bottom: 1px solid rgba(0, 0, 0, 0.3);
       width: 95%;
       position: absolute;
-      margin-top: 30px;
-      /* left: 50%;
-      transform: translateX(-50%); */
+      margin-top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
      
   }
   .section_five button{
       width: 100%;
-      margin-top: 45px;
+      /* margin-top: 45px; */
       padding: 7px;
       border: none;
       font-size: 20px;
