@@ -34,13 +34,16 @@
       width: 100%;
       height: 8vh;
      transition: .6s;
-
+     min-height: 10vh;
     
   }
   header .active{
       transition: .6s;
       background-color: #fff;
       z-index: 1000;
+      height: 8vh;
+      min-height: 10vh;
+
   }
   header .navbar .logo{
       width: 20%;

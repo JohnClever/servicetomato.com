@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import logo from './img'
 
 class Navbar extends Component{
     render() {
@@ -8,7 +8,7 @@ class Navbar extends Component{
                 <header>
                     <div class="navbar">
                         <div class="logo">              
-                            <img src="img/SERVICE TOMATO LOGO.jpg" alt="" />
+                            <img src="logo" alt="logo" />
                         </div>
                         <a href="/"><p class="p1">servicetomato.com</p></a>
                         <a href="/"class="p2" ><p >...</p></a>
