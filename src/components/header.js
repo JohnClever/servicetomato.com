@@ -10,7 +10,7 @@ class Navbar extends Component{
                 <nav>
                     <div className="nav-wrapper">
                     <li><a href="/" className="brand-logo nav-link left">Servicetomato.com</a></li>
-                    <a href="/" className="brand-logo center"><img src={logo} alt= "logo" width="15%"/></a>
+                    <a href="/" className="brand-logo nav-logo center"><img src={logo} alt= "logo" width="100%"/></a>
                     <a href="/" className="brand-logo nav-menu right"><img src={logoMenu} alt= "logo"/></a>
                     </div>
                 </nav>

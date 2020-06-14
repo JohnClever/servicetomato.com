@@ -1,22 +1,30 @@
 import React, { Component } from 'react'
-
+import 'materialize-css/dist/css/materialize.min.css'
+import 'materialize-css/dist/js/materialize'
+import Button from './button'
 
 class LoginForm extends Component{
-    render() {
+   
+     render() {
         return (
-            <div>
-                <section className="section_five">
-                <div className="items">
-                <form action="" method="post">
-                <input type="text" name="contact" placeholder="CONTACT" id="" required />
-                <input type="password" name="password" placeholder="PASSWORD" id="" required />
-                <p><a href=" ">lost password?</a></p>
-                </form>
-                <div className="divider"></div>
-                <button type="submit"> {'>'} </button>
+            <div >
+                <div className="form-Input">
+                    <div className="row center-Input">
+                        <div className="input-field col s12">
+                            <input id="password" type="password" className="validate" />
+                            <label htmlFor="password">PASSWORD</label>
+                        </div>  
+                        <div className="input-field col s12">
+                            <input  id="contact" type="number" className="validate" />
+                            <label  htmlFor="contact">CONTACT</label>
+                        </div> 
+                    </div>
+                    <a href = "/ ">lost password?</a>
                 </div>
-                </section>
+                <Button />
             </div>
+            
+              
         )
     }
 }
