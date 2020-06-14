@@ -18,7 +18,7 @@ nav{
 
 ul li a{
     color: #000 !important;
-   
+   font-size: 15px;
 }
 
 .nav-menu{
@@ -28,9 +28,9 @@ ul li a{
 
 .brand-logo{
     color: #000 !important;
-   position: absolute;
-   top: 10%;
-   transform: translateY(-50%);
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
 }
 nav ul a:hover,
 nav ul a:active,
