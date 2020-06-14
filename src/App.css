@@ -134,6 +134,51 @@ input[type=number]:active
     background: #000 !important;
    color: red !important;
   }
+  .menu{
+    width: 80%;
+    height: 70vh;
+    /* background: #000; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    .menu .items{
+        width: 70%;
+        height: 50%;
+        /* background-color: brown; */
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .menu .items ul{
+        list-style: none;
+    }
+    .menu .items ul li{
+        text-align: center;
+        padding: 5px;
+    }
+    .menu .items ul li a{
+        color: #000;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .menu .items hr{
+        margin-top: 15px;
+        border: .5px solid rgba(0, 0, 0, 0.1);
+    }
+    .menu .items p{
+        margin-top: 30px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .menu .items p a{
+        text-decoration: none;
+        color: #000;
+    }
 
 input:not([type]):disabled + label,
 input:not([type])[readonly="readonly"] + label,
@@ -246,6 +291,7 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
     
     .nav-link{
         margin-top: -10px;
+        font-size: 12px !important;
      }
      .nav-logo{
         margin-top: 0;
@@ -253,10 +299,7 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
     }
     
     .brand-logo{
-        color: #000 !important;
-        font-size: 15px !important;
-       
-       
+        color: #000 !important;     
     }
     nav ul a:hover,
     nav ul a:active,
@@ -342,6 +385,52 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
           left: 50%;
           transform: translateX(-50%);
       }
+      .menu{
+        width: 80%;
+        height: 70vh;
+        /* background: #000; */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        }
+        .menu .items{
+            width: 70%;
+            height: 50%;
+            /* background-color: brown; */
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .menu .items ul{
+            list-style: none;
+        }
+        .menu .items ul li{
+            text-align: center;
+            padding: 5px;
+        }
+        .menu .items ul li a{
+            color: #000;
+            text-align: center;
+            font-family: sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .menu .items hr{
+        margin-top: 15px;
+
+            border: .5px solid rgba(0, 0, 0, 0.1);
+        }
+        .menu .items p{
+            margin-top: 25px;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 20px;
+        }
+        .menu .items p a{
+            text-decoration: none;
+            color: #000;
+        }
     
     input:not([type]):disabled + label,
     input:not([type])[readonly="readonly"] + label,
