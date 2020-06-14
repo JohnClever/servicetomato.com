@@ -7,14 +7,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-     <section className="section_five">
-        <div className="items">
-          <LoginForm />
-          <div className="divider"></div>
-        <button type="submit"> {'>'} </button>
-        </div>
-       
-     </section>
+      <LoginForm />
     </div>
   );
 }
