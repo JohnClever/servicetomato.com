@@ -17,14 +17,18 @@ nav{
     display: flex;
 }
 
-ul li a{
-    color: #000 !important;
-   
-}
 
 .nav-menu{
    margin-top: -10px;
+   font-size: 50px;
+   font-weight: 900;
+   letter-spacing: 1px;
+   font-style: oblique;
 }
+
+.nav-link{
+    margin-top: -10px;
+ }
 
 .brand-logo{
     color: #000 !important;
