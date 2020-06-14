@@ -8,9 +8,10 @@ function App() {
      <section className="section_five">
         <div className="items">
           <LoginForm />
-        </div>
-        <div className="divider"></div>
+          <div className="divider"></div>
         <button type="submit"> {'>'} </button>
+        </div>
+       
      </section>
     </div>
   );
