@@ -1,16 +1,13 @@
 import React from 'react';
 import './App.css';
+import {LoginForm} from './components/login_form'
 
 function App() {
   return (
     <div className="App">
      <section className="section_five">
         <div className="items">
-          <form action="" method="post">
-              <input type="text" name="contact" placeholder="CONTACT" id="" required />
-              <input type="password" name="password" placeholder="PASSWORD" id="" required />
-              <p><a href=" ">lost password?</a></p>
-          </form>
+          <LoginForm />
         </div>
         <div className="divider"></div>
         <button type="submit"> {'>'} </button>
