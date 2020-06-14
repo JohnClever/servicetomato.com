@@ -291,7 +291,8 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
     
     .nav-link{
         margin-top: -10px;
-        font-size: 12px !important;
+        font-size: 15px !important;
+        margin-left: -10px;
      }
      .nav-logo{
         margin-top: 0;
