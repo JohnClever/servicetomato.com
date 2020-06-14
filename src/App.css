@@ -539,7 +539,7 @@
       width: 80%;
       height: 100vh;
       /* background: #000; */
-      position: absolute;
+      position: fixed;
       left: 50%;
       transform: translateX(-50%);
       /* display: none; */
