@@ -28,9 +28,9 @@ ul li a{
 
 .brand-logo{
     color: #000 !important;
-    position: absolute;
+    /* position: absolute;
     top: 10%;
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
 }
 nav ul a:hover,
 nav ul a:active,
