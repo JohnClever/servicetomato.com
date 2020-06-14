@@ -6,12 +6,12 @@ class Navbar extends Component{
         return (
             <div>
                 <header>
-                    <div class="navbar">
-                        <div class="logo">              
+                    <div className="navbar">
+                        <div className="logo">              
                             <img src="./img/SERVICE TOMATO LOGO.jpg" alt="logo" />
                         </div>
-                        <a href="/"><p class="p1">servicetomato.com</p></a>
-                        <a href="/"class="p2" ><p >...</p></a>
+                        <a href="/"><p className="p1">servicetomato.com</p></a>
+                        <a href="/"className="p2" ><p >...</p></a>
                     </div>   
                 </header>
             </div>
