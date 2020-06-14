@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import 'materialize-css/dist/css/materialize.min.css'
 import logo from '../components/img/SERVICE TOMATO LOGO.jpg'
+import logoMenu from '../components/img/icon_menu.svg'
 
 class Navbar extends Component{
     render() {
@@ -13,7 +14,7 @@ class Navbar extends Component{
                         <li><a href="/">Servicetomato.com</a></li>
                     </ul>
                     <ul className="right">
-                        <li className="nav-menu"><a href="/">. . .</a></li>
+                    <li className="nav-menu"><a href="/"><img src={logoMenu} alt="logoMenu"/></a></li>
                     </ul>
                     </div>
                 </nav>
