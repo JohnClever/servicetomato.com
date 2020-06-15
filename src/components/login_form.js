@@ -12,12 +12,10 @@ class LoginForm extends Component{
                 <div className="form-Input">
                     <div className="row center-Input">
                         <div className="input-field col s12">
-                            <input id="password" type="password" className="validate" />
-                            <label htmlFor="password">PASSWORD</label>
+                            <input id="password" type="password" className="validate" placeholder="PASSWORD"/>
                         </div>  
                         <div className="input-field col s12">
-                            <input  id="contact" type="number" className="validate" />
-                            <label  htmlFor="contact">CONTACT</label>
+                            <input  id="contact" type="number" className="validate" placeholder="CONTACT"/>
                         </div> 
                     </div>
                     <Link to= "/">lost password?</Link>

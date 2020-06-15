@@ -7,11 +7,11 @@ export default class JoinSite extends Component {
             <div className="JoinSite">
                 <div className="items">
                 <p>JOIN</p>
-                <button type="submit">Get a servicetomato account</button>
+                <Link to="/menu/join/signup"> <button type="submit">Get a servicetomato account</button></Link>
                 <p id="create_account"><Link to="/">Already have an account?</Link></p>
             </div>
                 <div className="divider"></div>
-                <p id="sign_up"><Link to="/menu/join/signIn">sign in</Link></p>
+                <p id="sign_up"><Link to="/menu/join/signin">sign in</Link></p>
             </div>
         )
     }

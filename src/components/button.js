@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
  class Button extends Component {
     render() {
         return (
-            <div>
-                <hr />
+            <div className="btun">
+                <div className="divider"></div>
                 <Link to="/servicePage" className="waves-effect button-style waves-light btn">{'>'}</Link>
             </div>
         )

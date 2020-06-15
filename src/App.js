@@ -12,6 +12,7 @@ import AfterSignUp from './components/AfterSignUp';
 import AfterLogIn from './components/AfterLogIn';
 import { LoginForm } from './components/login_form'
 import Home from './components/Home'
+import signup_form from './components/signup_form';
 
 class App extends Component {
   render() {
@@ -32,11 +33,11 @@ class App extends Component {
       <Route exact path="/" component={Home}></Route>
       <Route exact path="/menu" component={Menu}></Route>
       <Route exact path="/menu/join" component={JoinSite}></Route>
-      <Route exact path="/menu/signIn" component={SignIn}></Route>
+      <Route exact path="/menu/signin" component={SignIn}></Route>
       <Route exact path="/menu/signIn/login" component={LoginForm}></Route>
-      <Route exact path="/menu/join/signIn" component={SignIn}></Route>
+      <Route exact path="/menu/join/signin" component={LoginForm}></Route>
       <Route exact path="/servicePage" component={AfterLogIn}></Route>
-  
+      <Route exact path="/menu/join/signup" component={signup_form}></Route>
      </Switch>
    </Router>
     );
