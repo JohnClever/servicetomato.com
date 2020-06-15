@@ -21,7 +21,7 @@ class App extends Component {
       <div>
         <nav>
           <div className="nav-wrapper">
-              <Link to="/" className="brand-logo nav-link left">Servicetomato.com</Link>
+              <Link to="/" className="brand-logo nav-link left">servicetomato.com</Link>
               <Link to="/" className="brand-logo nav-logo center"><img src={logo} alt= "logo" width="100%"/></Link>
               <Link to="/menu" className="brand-logo nav-menu right"><img src={logoMenu} alt= "logo"/></Link>
           </div>
