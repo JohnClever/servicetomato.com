@@ -8,7 +8,7 @@ import logoMenu from './components/img/icon_menu.svg'
 import {Menu} from './components/Menu'
 import SignIn from './components/SignIn';
 import JoinSite from './components/JoinSite';
-import AfterSignUp from './components/AfterSignUp';
+// import AfterSignUp from './components/AfterSignUp';
 import AfterLogIn from './components/AfterLogIn';
 import { LoginForm } from './components/login_form'
 import Home from './components/Home'
