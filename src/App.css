@@ -6,7 +6,10 @@ body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    width: 100%;
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     /* overflow: hidden !important; */
 
    
@@ -143,7 +146,7 @@ input[type=number]:active
     transform: translateX(-50%);
     }
     .menu .items{
-        width: 70%;
+        width: 90%;
         height: 50%;
         /* background-color: brown; */
         position: absolute;
@@ -165,12 +168,17 @@ input[type=number]:active
         font-weight: 600;
         font-size: 20px;
     }
-    .menu .items hr{
-        margin-top: 15px;
-        border: .5px solid rgba(0, 0, 0, 0.1);
+    .menu .divider{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        margin-top: 5px;
+        width: 45%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+       
     }
     .menu .items p{
-        margin-top: 30px;
+        margin-top: 20px;
         text-align: center;
         font-family: sans-serif;
         font-size: 20px;
@@ -256,6 +264,187 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
   -webkit-box-shadow: 0 1px 0 0 rgba(255, 0, 0, 0.2) !important;
           box-shadow: 0 1px 0 0 rgba(255, 0, 0, 0.2) !important;
         
+}
+.items{
+    width: 80%;
+    height: 50%;
+    /* background-color: brown; */
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ .items p{
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+ .signIn{
+    width: 80%;
+    height: 70vh;
+    /* background: #000; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.signIn a{
+    width: 50% !important;
+    font-size: 12px;
+    color: #fff !important;
+    margin-top: 10px;
+
+}
+.AfterSignUp{
+    width: 80%;
+    height: 70vh;
+    /* background: #000; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.AfterSignUp .items{
+    width: 80%;
+    height: 50%;
+    /* background-color: brown; */
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.AfterSignUp .items ul{
+    list-style: none;
+}
+.AfterSignUp .items ul li{
+    text-align: center;
+    padding: 7px;
+}
+.AfterSignUp .items ul li a{
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.AfterSignUp .items ul li #prof{
+    font-size: 22px;
+}
+.AfterSignUp .items ul li #job{
+    font-size: 23px;
+
+}
+.AfterSignUp .items hr{
+   margin-top: 15px;
+    border: .5px solid rgba(0, 0, 0, 0.1);
+}
+.AfterSignUp .items p{
+    margin-top: 30px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.AfterSignUp .items p a{
+    text-decoration: none;
+    color: #000;
+}
+.AfterSignUp .log_out{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.AfterSignUp  .log_out a{
+    text-decoration: none;
+    color: red;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.JoinSite{
+    width: 80%;
+    height: 80vh;
+    /* background: #000; */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.JoinSite .items{
+    width: 90%;
+    height: 40%;
+    /* background-color: brown; */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.JoinSite .items p{
+    color: #000;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.JoinSite .items button{
+    width: 50%;
+    height: 35px;
+    border: none;
+    margin-top: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #fff;
+    background: #000;
+    text-transform: uppercase;
+}
+.JoinSite .items #create_account{
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.JoinSite .items #create_account a{
+    text-decoration: none;
+    color: #000;
+   
+}
+.JoinSite .divider{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    width: 45%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.JoinSite #sign_up{
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 14px;
+    position: absolute;
+    top: 55%;
+    margin-top: 25px;
+    transform: translateY(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.JoinSite #sign_up a{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: red;
 }
 @media (max-width: 1000px){
     *{
@@ -395,7 +584,7 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
         transform: translateX(-50%);
         }
         .menu .items{
-            width: 70%;
+            width: 90%;
             height: 50%;
             /* background-color: brown; */
             position: absolute;
@@ -417,13 +606,16 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
             font-weight: 600;
             font-size: 20px;
         }
-        .menu .items hr{
-        margin-top: 15px;
-
-            border: .5px solid rgba(0, 0, 0, 0.1);
+        .menu .divider{
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+            margin-top: 5px;
+            width: 90%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);  
         }
         .menu .items p{
-            margin-top: 25px;
+            margin-top: 20px;
             text-align: center;
             font-family: sans-serif;
             font-size: 20px;
@@ -509,5 +701,245 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
     -webkit-box-shadow: 0 1px 0 0 rgba(255, 0, 0, 0.2) !important;
             box-shadow: 0 1px 0 0 rgba(255, 0, 0, 0.2) !important;
             
+    }
+     .items{
+        width: 90%;
+        height: 50%;
+        /* background-color: brown; */
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+     .items p{
+        color: #000;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+    }
+     .signIn{
+        width: 80%;
+        height: 70vh;
+        /* background: #000; */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .signIn a{
+        width: 100% !important;
+        font-size: 12px;
+        color: #fff !important;
+        margin-top: 10px;
+
+    }
+    .JoinSite{
+        width: 80%;
+        height: 80vh;
+        /* background: #000; */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .JoinSite .items{
+        width: 90%;
+        height: 40%;
+        /* background-color: brown; */
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .JoinSite .items p{
+        color: #000;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+    }
+    .JoinSite .items button{
+        width: 100%;
+        height: 35px;
+        border: none;
+        margin-top: 5px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 10px;
+        color: #fff;
+        background: #000;
+        text-transform: uppercase;
+    }
+    .JoinSite .items #create_account{
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: 14px;
+        position: absolute;
+        top: 100%;
+        transform: translateY(-100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .JoinSite .items #create_account a{
+        text-decoration: none;
+        color: #000;
+       
+    }
+    .JoinSite .divider{
+        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        width: 85%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+       
+    }
+    .JoinSite #sign_up{
+        width: 100%;
+        padding-bottom: 10px;
+        font-size: 14px;
+        position: absolute;
+        top: 55%;
+        margin-top: 25px;
+        transform: translateY(-100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .JoinSite #sign_up a{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: sans-serif;
+        color: red;
+    }
+    .AfterSignUp{
+        width: 80%;
+        height: 70vh;
+        /* background: #000; */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    .AfterSignUp .items{
+        width: 80%;
+        height: 50%;
+        /* background-color: brown; */
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .AfterSignUp .items ul{
+        list-style: none;
+    }
+    .AfterSignUp .items ul li{
+        text-align: center;
+        padding: 7px;
+    }
+    .AfterSignUp .items ul li a{
+        color: #000;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .AfterSignUp .items ul li #prof{
+        font-size: 22px;
+    }
+    .AfterSignUp .items ul li #job{
+        font-size: 23px;
+
+    }
+    .AfterSignUp .items hr{
+       margin-top: 15px;
+        border: .5px solid rgba(0, 0, 0, 0.1);
+    }
+    .AfterSignUp .items p{
+        margin-top: 30px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .AfterSignUp .items p a{
+        text-decoration: none;
+        color: #000;
+    }
+    .AfterSignUp .log_out{
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .AfterSignUp  .log_out a{
+        text-decoration: none;
+        color: red;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .AfterLogIn{
+        width: 80%;
+        height: 70vh;
+        /* background: #000; */
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+      
+    }
+    .AfterLogIn .items{
+        width: 80%;
+        height: 50%;
+        /* background-color: brown; */
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .AfterLogIn .items ul{
+        list-style: none;
+    }
+    .AfterLogIn .items ul li{
+        text-align: center;
+        padding: 7px;
+    }
+    .AfterLogIn .items ul li a{
+        color: #000;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+    }
+    .AfterLogIn .items hr{
+       margin-top: 20px;
+        border: .5px solid rgba(0, 0, 0, 0.1);
+    }
+    .AfterLogIn .items p{
+        margin-top: 20px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .AfterLogIn .items p a{
+        text-decoration: none;
+        color: #000;
+    }
+    .AfterLogIn .log_out{
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+    .AfterLogIn  .log_out a{
+        text-decoration: none;
+        color: red;
     }
 }
